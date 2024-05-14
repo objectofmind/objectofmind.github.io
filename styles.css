@@ -8,3 +8,8 @@ h1 {
 }
 
 /* Add more CSS rules as needed */
+#myImage {
+    width: 200px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+}
