@@ -1,15 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
-h1 {
-    color: blue;
+.container {
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+    height: 100%;
 }
 
-/* Add more CSS rules as needed */
+.text {
+    text-align: center;
+}
+
+.image {
+    margin-left: 20px; /* Adjust as needed */
+}
+
 #myImage {
     width: 200px;
-    height: auto; /* Maintain aspect ratio */
+    height: 200px; /* Square dimensions */
     border-radius: 50%; /* Make the image circular */
 }
